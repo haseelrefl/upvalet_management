@@ -1,0 +1,127 @@
+<div class="container">
+  <header class="clearfix">
+    <h1>UpValet</h1>
+    <div class="col-md-6 col-sm-6 clearfix pull-right select_outer">
+      <div class="select_date  pull-right" ng-controller="DatepickerDemoCtrl">
+        <p class="input-group">
+          <input ng-click="open($event)" type="text" class="form-control" datepicker-popup="{{format}}" ng-model="dt" is-open="opened"  datepicker-options="dateOptions" 
+              date-disabled="disabled(date, mode)" ng-required="true"  show-button-bar="false"/>
+        </p>
+      </div>
+    </div>
+  </header>
+  <div class="main_section">
+    <div class="table-responsive">
+      <div class="table_container">
+        <div class="table-row">
+          <div class="col">
+            <div class="t_heading">JAN</div>
+            <div class="clearfix btm_li jan_list">
+              <ul>
+                <li>210 <span>Sold</span></li>
+                <li>210 <span>Goal</span></li>
+              </ul>
+              <div class="percentage">50%</div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="t_heading">ups</div>
+            <div class="clearfix btm_li">
+              <ul>
+                <li>210 <span>Today</span></li>
+                <li>210 <span>This Month</span></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col">
+            <div class="t_heading">sold</div>
+            <div class="clearfix btm_li">
+              <ul>
+                <li>210 <span>Today</span></li>
+                <li>210 <span>This Month</span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="table-row">
+          <div class="col">
+            <div class="t_heading">reps</div>
+            <div class="clearfix reps_section">
+              <p>Top performing</p>
+              <ul>
+                <li><img src="images/noimg.jpg" alt=""></li>
+                <li><img src="images/noimg.jpg" alt=""></li>
+                <li><img src="images/noimg.jpg" alt=""></li>
+              </ul>
+              <p>Worst performing</p>
+              <ul>
+                <li><img src="images/noimg.jpg" alt=""></li>
+                <li><img src="images/noimg.jpg" alt=""></li>
+                <li><img src="images/noimg.jpg" alt=""></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col">
+            <div class="t_heading">appointments</div>
+            <div class="clearfix btm_li">
+              <ul>
+                <li>210 <span>Today</span></li>
+                <li>210 <span>This Month</span></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col">
+            <div class="t_heading">trades</div>
+            <div class="clearfix img_section">
+              <ul>
+                <li><img src="images/noimg.jpg" alt=""></li>
+                <li><img src="images/noimg.jpg" alt=""></li>
+                <li><img src="images/noimg.jpg" alt=""></li>
+                <li><img src="images/noimg.jpg" alt=""></li>
+                <li><img src="images/noimg.jpg" alt=""></li>
+                <li><img src="images/noimg.jpg" alt=""></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="table-row">
+          <div class="col">
+            <div class="t_heading">customers</div>
+            <div class="clearfix img_section">
+              <ul>
+                <li><img src="images/noimg.jpg" alt=""></li>
+                <li><img src="images/noimg.jpg" alt=""></li>
+                <li><img src="images/noimg.jpg" alt=""></li>
+                <li><img src="images/noimg.jpg" alt=""></li>
+                <li><img src="images/noimg.jpg" alt=""></li>
+                <li><img src="images/noimg.jpg" alt=""></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col">
+            <div class="t_heading">survey</div>
+            <div class="clearfix survey_li btm_li">
+              <ul>
+                <li>210 <span>Facebook</span></li>
+                <li>210 <span>Newspaper</span></li>
+                <li>210 <span>Web</span></li>
+                <li>4 <span>Radio</span></li>
+                <li>12 <span>Friend</span></li>
+                <li>8 <span>Mail</span></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col">
+            <div class="t_heading">Inventory</div>
+            <div class="clearfix btm_li">
+              <ul>
+                <li>210 <span>New</span></li>
+                <li>210 <span>Used</span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

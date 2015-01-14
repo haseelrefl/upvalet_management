@@ -1,0 +1,24 @@
+
+@media only screen and (min-width : 992px) and (max-width : 1199px) {
+
+}
+@media only screen and (max-width : 768px){
+.survey_li ul{padding:0 19px 0 19px;}
+.survey_li ul li{font-size:33px;}
+.img_section ul{padding:0 29px;}
+.img_section ul li{margin:0 0 5px 0;}
+	
+	}
+@media only screen and (max-width : 767px){
+
+.col{display:block;width:100%;border-bottom:none;}
+}
+@media only screen and (max-width : 336px){
+	h1{float:none;text-align:center;margin-bottom:5px;}
+	.select_outer {
+    float: left !important;
+   
+    width: 168px;
+}
+	header{padding:10px;}
+	}
