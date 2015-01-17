@@ -1,17 +1,36 @@
 
 @media only screen and (min-width : 992px) and (max-width : 1199px) {
+	.trade_block{width:430px;}
+	.trade_block ul li{width:143px;}
+	.inventory_block{width:212px;}
 
 }
+@media only screen and (max-width : 991px){
+	.trade_block{width:100%;margin:0 0 10px 0 !important;}
+	.trade_block ul li{width:33.3%;}
+	.inventory_block{width:213px;height:auto;margin-bottom:10px;}
+	.inventory_block:nth-child(4n){margin:0 10px 10px 0;}
+	.inventory_block:nth-child(3n){margin:0 0 10px 0;}
+	
+	
+	}
 @media only screen and (max-width : 768px){
 .survey_li ul{padding:0 19px 0 19px;}
 .survey_li ul li{font-size:33px;}
 .img_section ul{padding:0 29px;}
 .img_section ul li{margin:0 0 5px 0;}
+
+
 	
 	}
 @media only screen and (max-width : 767px){
 
 .col{display:block;width:100%;border-bottom:none;}
+.trade_block ul li{width:100%;}
+.trade_heading .col-md-6,.inventory_btm .col-md-6{width:100%;text-align:left;padding:0;}
+.trade_heading,.inventory_btm{height:auto;}
+.customer_section .inventory_btm{height:60px;}
+.inventory_block{width:100%;margin:0 0 10px 0!important}
 }
 @media only screen and (max-width : 336px){
 	h1{float:none;text-align:center;margin-bottom:5px;}

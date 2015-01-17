@@ -11,17 +11,17 @@
     </div>
   </header>
   <div class="main_section">
-    <div class="table-responsive">
+  <div class="table-responsive">
       <div class="table_container">
         <div class="table-row">
-          <div class="col">
+          <div class="col" ng-controller="getGoalController" ng-init="sold=210;goal=500;">
             <div class="t_heading">JAN</div>
             <div class="clearfix btm_li jan_list">
               <ul>
-                <li>210 <span>Sold</span></li>
-                <li>210 <span>Goal</span></li>
+                <li ng-controller="getTotalSalesThisMonthController">{{sold}} <span>Sold</span></li>
+                <li>{{goal}} <span>Goal</span></li>
               </ul>
-              <div class="percentage">50%</div>
+              <div class="percentage">{{ sold/goal * 100 }}%</div>
             </div>
           </div>
           <div class="col">
@@ -49,15 +49,15 @@
             <div class="clearfix reps_section">
               <p>Top performing</p>
               <ul>
-                <li><img src="images/noimg.jpg" alt=""></li>
-                <li><img src="images/noimg.jpg" alt=""></li>
-                <li><img src="images/noimg.jpg" alt=""></li>
+                <li><a href="#/salesrep"><img src="images/noimg.jpg" alt=""></a></li>
+                <li><a href="#/salesrep"><img src="images/noimg.jpg" alt=""></a></li>
+                <li><a href="#/salesrep"><img src="images/noimg.jpg" alt=""></a></li>
               </ul>
               <p>Worst performing</p>
               <ul>
-                <li><img src="images/noimg.jpg" alt=""></li>
-                <li><img src="images/noimg.jpg" alt=""></li>
-                <li><img src="images/noimg.jpg" alt=""></li>
+                <li><a href="#/salesrep"><img src="images/noimg.jpg" alt=""></a></li>
+                <li><a href="#/salesrep"><img src="images/noimg.jpg" alt=""></a></li>
+                <li><a href="#/salesrep"><img src="images/noimg.jpg" alt=""></a></li>
               </ul>
             </div>
           </div>
@@ -74,12 +74,14 @@
             <div class="t_heading">trades</div>
             <div class="clearfix img_section">
               <ul>
-                <li><img src="images/noimg.jpg" alt=""></li>
-                <li><img src="images/noimg.jpg" alt=""></li>
-                <li><img src="images/noimg.jpg" alt=""></li>
-                <li><img src="images/noimg.jpg" alt=""></li>
-                <li><img src="images/noimg.jpg" alt=""></li>
-                <li><img src="images/noimg.jpg" alt=""></li>
+                <li><a href="#/trades"><img src="images/noimg.jpg" alt=""></a></li>
+                <li><a href="#/trades"><img src="images/noimg.jpg" alt=""></a></li>
+                <li><a href="#/trades"><img src="images/noimg.jpg" alt=""></a></li>
+                <li><a href="#/trades"><img src="images/noimg.jpg" alt=""></a></li>
+                <li><a href="#/trades"><img src="images/noimg.jpg" alt=""></a></li>
+                <li><a href="#/trades"><img src="images/noimg.jpg" alt=""></a></li>
+                <li><a href="#/trades"><img src="images/noimg.jpg" alt=""></a></li>
+                <li><a href="#/trades"><img src="images/noimg.jpg" alt=""></a></li>
               </ul>
             </div>
           </div>
@@ -89,12 +91,12 @@
             <div class="t_heading">customers</div>
             <div class="clearfix img_section">
               <ul>
-                <li><img src="images/noimg.jpg" alt=""></li>
-                <li><img src="images/noimg.jpg" alt=""></li>
-                <li><img src="images/noimg.jpg" alt=""></li>
-                <li><img src="images/noimg.jpg" alt=""></li>
-                <li><img src="images/noimg.jpg" alt=""></li>
-                <li><img src="images/noimg.jpg" alt=""></li>
+                <li><a href="#/customers"><img src="images/noimg.jpg" alt=""></a></li>
+                <li><a href="#/customers"><img src="images/noimg.jpg" alt=""></a></li>
+                <li><a href="#/customers"><img src="images/noimg.jpg" alt=""></a></li>
+                <li><a href="#/customers"><img src="images/noimg.jpg" alt=""></a></li>
+                <li><a href="#/customers"><img src="images/noimg.jpg" alt=""></a></li>
+                <li><a href="#/customers"><img src="images/noimg.jpg" alt=""></a></li>
               </ul>
             </div>
           </div>
